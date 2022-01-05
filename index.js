@@ -26,9 +26,16 @@ function writeCards(arrayofstring, eventname){
 
 // writeCards(['Guadalupe','Ollie','Aki'], 'surprise');
 
+// function countDown(number){
+//     for (let i=number;i>=0;i--){
+//         console.log(i)
+//     }
+// }
+
 function countDown(number){
-    for (let i=number;i>=0;i--){
-        console.log(i)
-    }
+    
+    while (number >=0)
+    console.log(number--);
 }
 
+countDown(10);
